@@ -9,7 +9,6 @@ void List::addNode(int value)
 
 	if (head == nullptr)
 		head = node;
-	//какая-то дичь ниже
 	else
 	{
 		Node* current = head;
